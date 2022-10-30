@@ -15,7 +15,7 @@
         <h1 style="text-align: center;" class="display-5">Registration Form</h1>
         <div class="col-md-6">
             <label for="first-name" class="form-label">First name</label>
-            <input type="text" class="form-control" id="first-name" value="" required onkeyup="validate()">
+            <input type="text" class="form-control" id="first-name" value="" required autocomplete="off" onkeyup="validate()">
             <div class= "valid-feedback" id="first-name-valid">
                 Looks good!
             </div>
@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-6">
             <label for="last-name" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="last-name" value="" required onkeyup="validate()">
+            <input type="text" class="form-control" id="last-name" value="" required autocomplete="off" onkeyup="validate()">
             <div class="valid-feedback" id="last-name-valid">
                 Looks good!
             </div>
@@ -37,7 +37,7 @@
             <label for="email" class="form-label">Email</label>
             <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend">@</span>
-                <input type="text" class="form-control" id="email" aria-describedby="inputGroupPrepend" required onkeyup="validate()">
+                <input type="text" class="form-control" id="email" aria-describedby="inputGroupPrepend" required autocomplete="off" onkeyup="validate()">
                 <div class="valid-feedback" id="email-valid">
                     Looks good!
                 </div>
@@ -50,7 +50,7 @@
             <label for="mobile" class="form-label">Mobile Number</label>
             <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend">+91</span>
-                <input type="text" class="form-control" id="mobile" aria-describedby="inputGroupPrepend" required onkeyup="validate()">
+                <input type="text" class="form-control" id="mobile" aria-describedby="inputGroupPrepend" required autocomplete="off" onkeyup="validate()">
                 <div class="valid-feedback" id="mobile-valid">
                     Looks good!
                 </div>
@@ -96,8 +96,8 @@
                 Please select a valid country.
             </div>
         </div>
-        <div class="col-md-12 submit" style="text-align: center;">
-            <button class="btn btn-dark" type="submit" onclick="validate(true)">Submit form</button>
+        <div class="col-md-12" style="text-align: center;">
+            <button class="btn submit" type="submit" onclick="validate(true)">Submit form</button>
         </div>
     </form>
 
