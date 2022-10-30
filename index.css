@@ -1,8 +1,16 @@
 .registration-form{
+    padding: 10px;
     width: 650px;
-    height: auto;
-    margin: 10px auto;
+    height: 600px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    color: #252A34;
+    font-family:'Times New Roman', Times, serif;
+    box-shadow: 10px 10px 20px;
 }
+
+
 .gender{
    width: 100%;
    margin: auto;
@@ -12,22 +20,21 @@
 }
 .gender-label, .country-label{
     width: 100%;
-    margin: 10px;
+    margin: -1px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
 .country{
    width: 350px;
-   height: 50px;
+   height: 40px;
    margin: auto;
  }
 
  .submit{
     position: relative;
-    top: 35px;
+    top: 16px;
  }
 
  
