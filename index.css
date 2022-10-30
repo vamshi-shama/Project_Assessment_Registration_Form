@@ -1,0 +1,33 @@
+.registration-form{
+    width: 650px;
+    height: auto;
+    margin: 10px auto;
+}
+.gender{
+   width: 100%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.gender-label, .country-label{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.country{
+   width: 350px;
+   height: 50px;
+   margin: auto;
+ }
+
+ .submit{
+    position: relative;
+    top: 35px;
+ }
+
+ 
